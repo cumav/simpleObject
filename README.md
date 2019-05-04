@@ -1,5 +1,6 @@
 ### Simple object detection
-Simple wrapper to the openCV AI capabilities.
+Simple wrapper to the openCV object detection capabilities. In this project we use the [ssd_mobilenet_v1_coco](https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/detection_model_zoo.md).
+
 #### Prerequisite
 
 This setup is only using opencv in python. So install opencv in python: 
