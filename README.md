@@ -24,7 +24,7 @@ import time
 from SimpleObjectDetection import SimpleObjectDetection
 
 x = SimpleObjectDetection()
-x.image_boxes("test.png", plot=True)
+x.image_boxes("test.jpg", plot=True)
 
 time.sleep(100)
 ```
@@ -44,7 +44,7 @@ def get_center(small_value, big_value):
 x = SimpleObjectDetection()
 
 # create a frame from the image
-frame = x.frame_from_image("test.png")
+frame = x.frame_from_image("test.jpg")
 
 # Detect and get the features as an dict from the given frame
 features = x.return_detection_features(frame)

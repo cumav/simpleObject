@@ -11,8 +11,8 @@ class SimpleObjectDetection:
         # opencv types
         self.counter = 0
         self.fontColor = (23, 230, 210)
-        self.fontScale = 0.5
-        self.lineType = 2
+        self.fontScale = 2.5
+        self.lineType = 5
         self.font = cv.FONT_HERSHEY_SIMPLEX
         self.frame_cnt = 0
 
@@ -78,8 +78,8 @@ class SimpleObjectDetection:
                            self.fontColor,
                            self.lineType)
 
-            if save_path != "":
-                cv.imwrite(save_path, frame)
+        if save_path != "":
+            cv.imwrite(save_path, frame)
         if plot and self.frame_cnt % 30 == 0:
             cv.imshow('img', frame)
             if cv.waitKey(25) & 0xFF == ord('q'):
