@@ -11,7 +11,8 @@ pip install opencv-python
 
 and you are done with that!
 
-Now either train your own model or get the mobilenet here -> 
+This project comes with the needed model, but you also can use other models.
+For that either train your own model or get the mobilenet [ssd_mobilenet_v1_coco](https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/detection_model_zoo.md)
 
 #### Using
 
