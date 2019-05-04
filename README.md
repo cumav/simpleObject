@@ -1,5 +1,5 @@
 ### Simple object detection
-Simple wrapper to the openCV 
+Simple wrapper to the openCV AI capabilities.
 #### Prerequisite
 
 This setup is only using opencv in python. So install opencv in python: 
@@ -59,6 +59,19 @@ for detection in features:
         cv2.circle(frame, (width_center, height_center), 5, (0, 255, 0), -1)
 
 cv2.imwrite("pint_img.jpg", frame)
+```
+#### With video
+
+To draw bounding boxes, just initialize SimpleObjectDetection. Then use ``.video_boxes("path of the video or number of the webcam")``
+to draw the boxes. Plot=True will plot the result.
+
+``` python
+import time
+
+from SimpleObjectDetection import SimpleObjectDetection
+
+x = SimpleObjectDetection()
+x.video_boxes(0, plot=True)
 ```
 
 #### Creating video functions
