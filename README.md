@@ -1,5 +1,5 @@
 ### Simple object detection
-Simple wrapper to the openCV object detection capabilities. In this project we use the [ssd_mobilenet_v1_coco](https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/detection_model_zoo.md).
+Simple wrapper to the openCV object detection capabilities. In this project we use the pretrained [ssd_mobilenet_v1_coco](https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/detection_model_zoo.md) model.
 
 #### Prerequisite
 
