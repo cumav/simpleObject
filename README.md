@@ -29,6 +29,9 @@ x.image_boxes("test.jpg", plot=True)
 time.sleep(100)
 ```
 
+This returns:
+![example](assets/test.jpg)
+
 ###### Custom Image detection
 Here an example on how to draw circles in the center of an detected object:
 ``` python
@@ -60,6 +63,8 @@ for detection in features:
 
 cv2.imwrite("pint_img.jpg", frame)
 ```
+
+![example](assets/pint_img.jpg)
 #### With video
 
 To draw bounding boxes, just initialize SimpleObjectDetection. Then use ``.video_boxes("path of the video or number of the webcam")``
