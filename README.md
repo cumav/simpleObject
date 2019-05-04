@@ -12,7 +12,7 @@ pip install opencv-python
 and you are done with that!
 
 This project comes with a pretrained [model](https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/detection_model_zoo.md), but you also can use other models.
-For that either train your own model or get the mobilenet [ssd_mobilenet_v1_coco](https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/detection_model_zoo.md)
+For that either [train your own model](https://github.com/tensorflow/models/tree/master/research/object_detection) or get the mobilenet [ssd_mobilenet_v1_coco](https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/detection_model_zoo.md)
 
 #### Using
 
